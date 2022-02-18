@@ -225,15 +225,4 @@ library VRF {
 
         return randomNumber;
     }
-
-    function _addTokenIdToClass(
-        VRFState storage _state,
-        uint256 _classId,
-        uint256 _tokenId
-    ) internal {
-        // This is called by code that has already checked this, sometimes in a
-        // loop, so don't pay the gas cost of checking this here.
-        require(_classId < _state.numClasses, "_class out of range");
-        _state.classToTokenIds[_classId].push(_tokenId);
-    }
 }
