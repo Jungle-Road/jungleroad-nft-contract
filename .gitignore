@@ -1,0 +1,16 @@
+node_modules
+.env
+
+#Hardhat files
+cache
+artifacts
+
+.DS_Store
+coverage.json
+coverage
+browser.js
+.coverage_*
+
+yarn.lock
+
+typechain/
