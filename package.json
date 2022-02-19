@@ -1,5 +1,5 @@
 {
-  "name": "jungleroad-contract",
+  "name": "jungleroad-nft-contract",
   "version": "1.0.0",
   "description": "Smart contract for jungleroad",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jungle-Road/jungleroad-contract.git"
+    "url": "git+https://github.com/Jungle-Road/jungleroad-nft-contract.git"
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Jungle-Road/jungleroad-contract/issues"
+    "url": "https://github.com/Jungle-Road/jungleroad-nft-contract/issues"
   },
-  "homepage": "https://github.com/Jungle-Road/jungleroad-contract#readme",
+  "homepage": "https://github.com/Jungle-Road/jungleroad-nft-contract#readme",
   "dependencies": {
     "@openzeppelin/contracts": "^4.4.2",
     "@typechain/ethers-v5": "^8.0.5",
